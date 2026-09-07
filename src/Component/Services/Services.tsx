@@ -27,7 +27,7 @@ const Services = () => {
   ];
   return (
     <div className="service-section container max-w-330 mx-auto py-35">
-      <h4 className="text-[36px] mb-12 font-semibold text-[#179800]">Services</h4>
+      <h2 className="text-[36px] mb-12 font-semibold text-[#179800]">Services</h2>
       <div className="services flex gap-6 justify-between">
         {Services.map((service) => {
           const { img, title, paragraph } = service;
